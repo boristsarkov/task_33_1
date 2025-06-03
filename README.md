@@ -14,3 +14,18 @@
 4. Функция test_open_page_registration. Тестирует открывается ли страница регистрации.
 5. Функция test_registration_without_region. Тестирует регистрацию с введенными полями кроме поля Регион. 
 6. Функция test_password_recovery_page. Тестирует наличие страницы по восстановлению пароля
+7. Функция test_registration_name_one_simbol. Тестирует поле ввода "Имя" при веденном одном символе.
+8. Функция test_registration_name_31_simbol. Тестирует поле ввода "Имя" при веденном 31 символе при 30 допустимых. 
+9. Функция test_registration_last_name_one_simbol. Тестирует поле ввода "Фамилия" при веденном одном символе.
+10. Функция test_registration_last_name_31_simbol. Тестирует поле ввода "Фамилия" при веденном 31 символе при 30 допустимых. 
+11. Функция test_registration_not_valid_email. Тестирует некоректно введенный email.
+12. Функция test_registration_short_password. Тестирует введеный пароль недостаточной длины.
+13. Функция test_registration_not_confirm_password. Тестирует работает ли проверка на подтверждение пароля.
+14. Функция test_registration_name_not_cyrillic. Проверяет валидацию поля "Имя" при введенной латинице.
+15. Функция test_registration_last_name_not_cyrillic. Проверяет валидацию поля "Фамилия" при введенной латинице.
+16. Функция test_registration_name_spec_sympols. Проверяет валидацию поля "Имя" при введенных спецсимволах.
+17. Функция test_registration_last_name_spec_symbol. Проверяет валидацию поля "Фамилия" при введенных спецсимволах.
+18. Функция test_registration_valid_phone_format. Проверяет правильность введенного номера телефона.
+19. Функция test_registration_empty_name. Проверяет валидацию при пустом поле "Имя".
+20. Функция test_registration_empty_last_name. Проверяет валидацию при пустом поле "Фамилия".
+21. Функция test_registration_empty_email. Проверяет валидацию при пустом поле "E-mail или мобильный телефон".
